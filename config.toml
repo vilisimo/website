@@ -85,7 +85,7 @@ page = "/:slug/"
 name = "home"
 weight = -10
 identifier = "Home"
-url = ""
+url = "/"
 
 [blackfriday]
 hrefTargetBlank = true
