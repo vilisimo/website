@@ -83,25 +83,25 @@ page = "/:slug/"
 
 [[menu.main]]
 name = "home"
-weight = -10
+weight = 1 
 identifier = "Home"
 url = "/"
 
 [[menu.main]]
 name = "blog"
-weight = -10
+weight = 2 
 identifier = "Blog"
 url = "/blog/"
 
 [[menu.main]]
 name = "projects"
-weight = -10
+weight = 3
 identifier = "Projects"
 url = "/projects/"
 
 [[menu.main]]
 name = "about"
-weight = -10
+weight = 4  
 identifier = "About"
 url = "/about/"
 
