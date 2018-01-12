@@ -2,12 +2,16 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
-# Build the project.
-hugo -t minimo # if using a theme, replace with `hugo -t <YOURTHEME>`
+# Get the theme name
+theme="$(find themes/ -mindepth 1 -maxdepth 1 -type d -printf '%f\n' |\
+    (head -n1 && tail -n1))"
 
-# Go To Public folder
+# Build the project.
+# hugo -t <theme> when using themes
+hugo -t $theme
+
+# Add changes to git
 cd public
-# Add changes to git.
 git add .
 
 # Commit changes.
