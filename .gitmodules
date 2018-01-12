@@ -1,7 +1,8 @@
 [submodule "themes/minimo"]
-    path = themes/minimo
-    url = https://github.com/MunifTanjim/minimo
+        path = themes/minimo
+        url = https://github.com/MunifTanjim/minimo
 
 [submodule "public"]
-    path = public
-    url = git@github.com:vilisimo/vilisimo.github.io.git
+        path = public
+        url = git@github.com:vilisimo/vilisimo.github.io.git
+        branch = master
