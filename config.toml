@@ -87,6 +87,24 @@ weight = -10
 identifier = "Home"
 url = "/"
 
+[[menu.main]]
+name = "blog"
+weight = -10
+identifier = "Blog"
+url = "/blog/"
+
+[[menu.main]]
+name = "projects"
+weight = -10
+identifier = "Projects"
+url = "/projects/"
+
+[[menu.main]]
+name = "about"
+weight = -10
+identifier = "About"
+url = "/about/"
+
 [blackfriday]
 hrefTargetBlank = true
 
