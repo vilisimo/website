@@ -13,7 +13,7 @@
   <div class='list-container'>
     <ul class='list'>
       {{ range .Paginator.Pages }}
-        {{ .Render "li" }}
+        {{ partial "projects/li" . }}
       {{ end }}
     </ul>
 
