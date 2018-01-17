@@ -1,0 +1,25 @@
+{{ partial "header" . }}
+
+<main id='main' class='main'>
+
+  {{ partial "projects/title" . }}
+
+  {{ if .Content }}
+  <div class='entry'>
+    {{ partial "entry/content" . }}
+  </div>
+  {{ end }}
+
+  <div class='list-container'>
+    <ul class='list'>
+      {{ range .Paginator.Pages }}
+        {{ .Render "li" }}
+      {{ end }}
+    </ul>
+
+    {{ partial "nav/pagination" . }}
+
+  </div>
+</main>
+
+{{ partial "footer" . }}
