@@ -81,7 +81,7 @@ tag = "tags"
 # Configures how the URLs look for specific folders
 [permalinks]
 page = "/:slug/"
-posts = "/posts/:title/"
+posts = "/blog/:title/"
 
 [[menu.main]]
 name = "home"
@@ -93,7 +93,7 @@ url = "/"
 name = "blog"
 weight = 2 
 identifier = "Blog"
-url = "/posts/"
+url = "/blog/"
 
 [[menu.main]]
 name = "projects"
