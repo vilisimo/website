@@ -116,3 +116,6 @@ hrefTargetBlank = true
 lang = "en"
 languageName = "English"
 weight = 1
+
+[params.custom]
+github = "https://github.com/vilisimo/"
