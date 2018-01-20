@@ -1,121 +1,82 @@
-baseURL = "https://vilisimo.github.io"
-publishDir = "public"
-title = "Initial"
-# for smart copyright line, leave this blank and check [params.copyright]
-copyright = ""
+baseurl             = "https://vilisimo.github.io/"
+builddrafts         = false
+canonifyurls        = true
+contentdir          = "content"
+languageCode        = "en-US"
+layoutdir           = "layouts"
+publishdir          = "public"
+theme               = "cocoa"
+author              = "Simonas Viliunas"
+title               = "Bytecode Never Lies"
+pygmentsuseclasses  = true
+disqusshortname     = "bytecodeneverlies" # Comment out to disable Disqus.
+pluralizelisttitles = false
+googleAnalytics     = "UA-123-45"
 
-theme = "minimo"
-
-disqusShortname = ""
-googleAnalytics = ""
-
-Paginate = 5
-preserveTaxonomyNames = true
-
-enableRobotsTXT = true # generate robots.txt
-
-# Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
-pygmentsCodefences = true
-
-# Missing translations will default to this content language
-defaultContentLanguage = "en"
-
-[params.info]
-description = "Temporary description"
-title404 = "Nothing's here!"
-
-[params.assets]
-favicon = "favicon.ico"
-customCSS = ["css/custom.css"]
-customJS = ["js/custom.js"]
-gopher = "" # used in 404 template ( Generator: https://gopherize.me )
-
-[params.copyright]
-prefix = ""
-holder = "Simonas Viliūnas"
-startYear = "2018"
-suffix = ""
-
-[params.settings]
-# date & time format: https://golang.org/pkg/time/
-dateFormat = "2006, Jan 02"
-listDateFormat = "2006, Jan 02"
-hideEntryNavigation = ["page"] # boolean / array of sections
-recentPostsLength = 4
-hideSocialMenu = false
-showReadingTime = true
-noTermCloudShuffle = false
-homepageSections = ["recent_posts"]
-
-[params.opengraph.facebook]
-admins = [] # array of Facebook IDs
-appID = ""
-pageID = ""
-
-[params.opengraph.twitter]
-page = "" # Twitter page username
-
-[params.seo]
-# Title Separator: - – — · • * ⋆ | ~ « » < >
-titleSeparator = "•"
-
-[params.social]
-# codepen = "name"
-# email = "contact@example.com"
-# facebook = "name"
-github = "vilisimo"
-# instagram = "name"
-linkedin = "simonasviliunas"
-# twitter = "name"
-telegram = "name"
-
-[params.social.config]
-# platforms = ["github","facebook","twitter","instagram","email","codepen","linkedin","telegram"]
-platforms = ["github","linkedin"]
-
-[taxonomies]
-author = "authors"
-category = "categories"
-tag = "tags"
-
-# Configures how the URLs look for specific folders
 [permalinks]
-page = "/:slug/"
-posts = "/blog/:title/"
+blog  = "blog/:slug/"
 
 [[menu.main]]
-name = "home"
-weight = 1 
-identifier = "Home"
-url = "/"
+name                   = "Home"
+weight                 = -130
+identifier             = "home"
+url                    = "/"
 
 [[menu.main]]
-name = "blog"
-weight = 2 
-identifier = "Blog"
-url = "/blog/"
+name                   = "Blog"
+weight                 = -120
+identifier             = "blog"
+url                    = "/blog/"
 
 [[menu.main]]
-name = "projects"
-weight = 3
-identifier = "Projects"
-url = "/projects/"
+name                   = "Projects"
+weight                 = -110
+identifier             = "projects"
+url                    = "/projects/"
 
 [[menu.main]]
-name = "about"
-weight = 4  
-identifier = "About"
-url = "/about/"
+name                   = "About"
+weight                 = -100
+identifier             = "about"
+url                    = "/about/"
 
-[blackfriday]
-hrefTargetBlank = true
+[params]
+include_rss            = true                          # include RSS <link> tag in <head> and show RSS icon
+latestpostscount       = 5                             # how many posts to display on the home page
+i18n_flags             = false                         # whether to display small country flags for available translations
+author                 = "Simonas Viliunas"
+cachebuster            = true                          # add the current unix timestamp in query string for cache busting css assets
+dateform               = "Jan 2, 2006"
+dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
+description            = "Read the bytecode and weep"
+email                  = "you@example.space"
+extracssfiles          = [ "/css/custom.css" ]       # In your `static` directory, add/remove files as necessary.
+faviconfile            = "img/leaf.ico"
+github                 = "//github.com/vilisimo"
+# instagram              = "//instagram.com/you"
+# px500                  = "//500px.com/username"
+lang                   = "en"
+linkedin               = "//linkedin.com/in/simonasviliunas"
+noshowreadtime         = false                         # if true, don't show "<x> minutes read" in posts
+selfintro              = ""                            # appears in the site header when set to a non-empty string
+# twitter                = "//twitter.com/you"
+# mastodon               = "//example.com/@you"
 
-[languages]
-# edit this block for your own language
-[languages.en]
-lang = "en"
-languageName = "English"
-weight = 1
+highlightjs            = true
+# highlightjslanguages = ["go"]                        # additional languages not included in the "common" set
+# highlightjsStyle     = "darcula"
 
-[params.custom]
-github = "https://github.com/vilisimo/"
+piwik                  = false                         # If true, Piwik integration is enabled
+# piwik_url            = "//www.example.com/piwik/"    # URL to your Piwik installation. Must End with a slash
+# piwik_id             = 2                             # Id of your site in Piwik
+
+gitalk                 = false
+# if gitalk is true, the following params should be set. These parameters could be retrieved from github OAuth
+gitalk_clientID        = "your client id"
+gitalk_clientSecret    = "your client secret"
+gitalk_repo            = "your repo url"
+gitalk_owner           = "the owner of this repo"
+gitalk_admin           = ['a', 'list', 'of', 'administrator']
+
+# avatar                 = "img/profile.png" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
+# gravatar             = ""                # gravatar hash. see https://en.gravatar.com/site/implement/hash/. do not use in the same time as avatar
