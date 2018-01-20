@@ -1,4 +1,3 @@
 ---
-title: Projects
-description: Projects that I have been dabbling with recently
+description: Projects that I have been dabbling with recently. Click on the title to see more details.
 ---
