@@ -1,13 +1,16 @@
-/*body {
-  font-family: 'Lato', sans-serif;
+/* Projects-specific styles */
+.project-title {
+  font-weight: bolder;
+  line-height: 2;
 }
-*/
-.list-item > .project-title {
-  font-weight: 500;
+
+section.main .content .project-content p,
+section.main .content .project-content code,
+.project-content li {
+  font-size: 95%;
 }
 
 .project-content {
-  font-size: 85%;
   display: none;
 }
 
@@ -15,7 +18,8 @@
   line-height: 3;
 }
 
+
 /* Markdown */
-section.main .content .markdown li {
+.markdown li {
   margin-left: 3em;
 }
