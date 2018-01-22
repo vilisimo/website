@@ -50,9 +50,15 @@ intro                  = "Read the source code and weep"  # appears in the site 
 cachebuster            = true                          # add the current unix timestamp in query string for cache busting css assets
 dateform               = "Jan 2, 2006"
 dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
-extracssfiles          = ["/css/custom.css"]       # In your `static` directory, add/remove files as necessary.
 faviconfile            = "img/leaf.ico"
 lang                   = "en"
+
+# Additional JavaScript
+customjs               = ["/js/custom.js"]
+jquery                 = true
+
+# Additional CSS
+customcss              = ["/css/custom.css"]       # In your `static` directory, add/remove files as necessary.
 
 # Social
 github                 = "//github.com/vilisimo"
