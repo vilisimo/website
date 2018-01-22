@@ -1,12 +1,25 @@
-.list-item > .project-title {
-	font-weight: 500;
+/* Projects-specific styles */
+.project-title {
+  font-weight: bolder;
+  line-height: 2;
+}
+
+section.main .content .project-content p,
+section.main .content .project-content code,
+.project-content li {
+  font-size: 95%;
 }
 
 .project-content {
-  font-size: 85%;
   display: none;
 }
 
 .project-github {
   line-height: 3;
+}
+
+
+/* Markdown */
+.markdown li {
+  margin-left: 3em;
 }
