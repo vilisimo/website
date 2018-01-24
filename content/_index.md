@@ -1,4 +1,4 @@
 ---
-title: Bytecode Never Lies
+title: Machine Code Never Lies
 ---
 Welcome, stranger. Stay awhile, and listen.

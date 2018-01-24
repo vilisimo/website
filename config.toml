@@ -7,9 +7,9 @@ layoutdir           = "layouts"
 publishdir          = "public"
 theme               = "cocoa"
 author              = "Simonas Viliunas"
-title               = "Bytecode Never Lies"
+title               = "Machine Code Never Lies"
 pygmentsuseclasses  = true
-disqusshortname     = "bytecodeneverlies" # Comment out to disable Disqus.
+disqusshortname     = "machinecodeneverlies" # Comment out to disable Disqus.
 pluralizelisttitles = false
 googleAnalytics     = "UA-123-45"
 
