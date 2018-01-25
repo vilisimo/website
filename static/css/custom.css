@@ -1,22 +1,22 @@
 /* Navigation bar */
 .nav-current span {
-	font-weight: bold;
+  font-weight: bold;
 }
 
-/* Projects-specific styles */
+/* Projects section styling */
 .project-title {
-  font-weight: bolder;
   line-height: 2;
+  text-transform: uppercase;
+}
+
+.hidden {
+  display: none;
 }
 
 section.main .content .project-content p,
 section.main .content .project-content code,
 .project-content li {
   font-size: 95%;
-}
-
-.project-content {
-  display: none;
 }
 
 .project-github {

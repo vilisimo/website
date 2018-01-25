@@ -7,16 +7,18 @@
                 {{ .Content }}
             </div>
             {{ with .Data.Pages }}
-            <nav class="section-items">
+            <div class="section-items">
                 <ul>
                 {{ range .ByWeight }}
-                    <li class="project-title">{{ default .Title .Params.heading }}</li>
-                    <div class="markdown project-content">
-                        {{ .Content }}
+                    <div class="project">
+                        <li class="project-title">{{ default .Title .Params.heading }}</li>
+                        <div class="markdown project-content hidden">
+                            {{ .Content }}
+                        </div>
                     </div>
                 {{ end }}
                 </ul>
-            </nav>
+            </div>
             {{ end }}
         </div>
     </div>
