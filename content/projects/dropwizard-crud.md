@@ -4,16 +4,15 @@ title: Dropwizard Crud
 draft: false
 project: vault
 ---
-The project is a proof of concept CRUD toy. It was mainly developed to gain familiarity with:
+The project is a proof of concept CRUD project. It was developed to gain familiarity with:
 
 - Dropwizard
-- Groovy
-- Spock
+- Groovy + Spock
 - Camel
 - Guice
 - JDBI
 - Docker
 
-Hence, there is no complex logic. It mostly consists of wiring components and libraries to check
-how they work with one another. In the future, however, it might serve as a useful reminder of 
-how things work.
+There is no complex logic. It mostly consists of wiring components and libraries to check
+how they work with one another. In the future, however, it might serve as a useful reminder
+of how things work.
