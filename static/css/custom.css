@@ -23,8 +23,7 @@ section.main .content .project-content code,
   line-height: 3;
 }
 
-
-/* Markdown */
-.markdown li {
+/** Markdown */
+section.main .content .markdown li {
   margin-left: 3em;
 }
