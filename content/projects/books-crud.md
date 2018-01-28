@@ -1,8 +1,9 @@
 ---
 date: 2018-01-11T22:40:08+02:00
-title: Dropwizard Crud
+title: Books Crud
 draft: false
 project: vault
+weight: 5
 ---
 The project is a proof of concept CRUD project. It was developed to gain familiarity with:
 

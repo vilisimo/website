@@ -11,7 +11,9 @@
                 <ul>
                 {{ range .ByWeight }}
                     <div class="project">
-                        <li class="project-title">{{ default .Title .Params.heading }}</li>
+                        <li class="project-title">
+                            {{ default .Title .Params.heading }}
+                        </li>
                         <div class="markdown project-content hidden">
                             {{ .Content }}
                         </div>

@@ -3,6 +3,7 @@ date: 2018-01-11T22:40:08+02:00
 title: Tasks
 draft: false
 project: tasks
+weight: 3
 ---
 `Tasks` is a simple command line tool to enable creating and keeping track of tasks 
 that need to be done.
