@@ -1,6 +1,19 @@
+/* Title */
+section.header .name {
+  font-size: 1.2em;
+}
+
+section.header h3.self-intro {
+  font-size: 1.07em;
+}
+
 /* Navigation bar */
 .nav-current span {
   font-weight: bold;
+}
+
+nav span {
+  font-size: 111%;
 }
 
 /* Projects section styling */
