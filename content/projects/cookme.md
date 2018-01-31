@@ -5,15 +5,16 @@ draft: false
 project: cookme
 weight: 2
 ---
-Cookme is a website that serves as a simple recipe holder with a no-nonsense frontend.
-
 https://cookmetoo.herokuapp.com/
 
-A user can browse recipes that have been added by other users. Additionally, the user 
-can search for ingredient(s) that he/she would like to use. If there are recipes containing
-them, the matching recipes will be shown. Furthermore, the user can add recipes and
-ingredients to his/her fridge. Once ingredients and recipes are added, the user can search 
-the fridge for liked recipes that can be made with ingredients in the fridge.
+_Cookme_ serves as a simple recipe holder with a no-nonsense frontend.
+
+A user can browse recipes that have been added by other users. Additionally, 
+the user can search for ingredient(s) that he/she would like to use. If there 
+are recipes containing them, the matching recipes will be shown. Furthermore, 
+the user can add recipes and ingredients to his/her fridge. Once ingredients 
+and recipes are added, the user can search the fridge for liked recipes that 
+can be made with ingredients in the fridge.
 
 Technologies:
 

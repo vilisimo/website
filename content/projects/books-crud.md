@@ -5,7 +5,8 @@ draft: false
 project: vault
 weight: 5
 ---
-The project is a proof of concept CRUD project. It was developed to gain familiarity with:
+The project is a proof of concept CRUD app. Its main purpose was to have a place
+to play with:
 
 - Dropwizard
 - Groovy + Spock
@@ -14,6 +15,5 @@ The project is a proof of concept CRUD project. It was developed to gain familia
 - JDBI
 - Docker
 
-There is no complex logic. It mostly consists of wiring components and libraries to check
-how they work with one another. In the future, however, it might serve as a useful reminder
-of how things work.
+It mostly consists of wiring components and libraries to check how they work 
+with one another. Hence, it really is a simple CRUD app.
