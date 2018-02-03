@@ -10,6 +10,7 @@ that need to be done.
 The main reason for this project was to have a simple project that allows some
 degree of experimentation with the following technologies a little bit more:
 
+- Java 9
 - HSQLDB
 - JDBC
 - Liquibase

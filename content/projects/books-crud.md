@@ -7,6 +7,7 @@ weight: 6
 The project is a proof of concept CRUD app. Its main purpose was to have a 
 place to play with:
 
+- Java 8
 - Dropwizard
 - Groovy + Spock
 - Camel
