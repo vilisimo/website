@@ -5,7 +5,7 @@ draft: false
 project: tasks
 weight: 3
 ---
-`Tasks` is a simple command line tool to enable creating and keeping track of tasks 
+`tasks` is a simple command line tool to enable creating and keeping track of tasks 
 that need to be done.
 
 The main reason for this project was to have a simple project that allows some 

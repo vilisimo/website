@@ -7,7 +7,7 @@ weight: 2
 ---
 https://cookmetoo.herokuapp.com/
 
-_Cookme_ serves as a simple recipe holder with a no-nonsense frontend.
+`cookme` serves as a simple recipe holder with a no-nonsense frontend.
 
 A user can browse recipes that have been added by other users. Additionally, 
 the user can search for ingredient(s) that he/she would like to use. If there 
