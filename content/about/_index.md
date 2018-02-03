@@ -1,6 +1,3 @@
----
-heading: About
----
 I'm Simonas. 
 
 I work as a software developer. I have masters in __Software Development__
@@ -16,6 +13,4 @@ of conjuring mastery from concentrated hopes and dreams.
 
 I might even recognize __HTML__, __CSS__ and __JavaScript__ if I bumped into 
 them in a broad daylight. In fact, fishwives share the tales of an entire 
-[website](https://cookmetoo.herokuapp.com) built on this knowledge. The particularly 
-bold ones assert that it did not use any front-end frameworks (gasp) to prop 
-it up.
+[website](https://cookmetoo.herokuapp.com) built on this knowledge. 
