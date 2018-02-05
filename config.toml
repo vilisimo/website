@@ -11,7 +11,7 @@ title               = "Machine Code Never Lies"
 pygmentsuseclasses  = true
 disqusshortname     = "machinecodeneverlies" # Comment out to disable Disqus.
 pluralizelisttitles = false
-googleAnalytics     = "UA-123-45"
+googleAnalytics     = "UA-113536003-1"
 
 [blackfriday]
 hrefTargetBlank     = true
