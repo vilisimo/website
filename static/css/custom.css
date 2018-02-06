@@ -22,6 +22,10 @@ nav span {
   cursor: pointer;
 }
 
+.project-title:hover {
+  font-weight: bold;
+}
+
 .project-source {
   font-size: 10px;
   text-transform: lowercase;
@@ -29,6 +33,11 @@ nav span {
 
 .hidden {
   display: none;
+}
+
+.active {
+  font-weight: bold;
+  border-bottom: 1px solid black;
 }
 
 section.main .content .project-content p,
