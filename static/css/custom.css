@@ -20,10 +20,12 @@ nav span {
 .project-title {
   line-height: 2;
   cursor: pointer;
+  color: black;
 }
 
 .project-title:hover {
   font-weight: bold;
+  color: black;
 }
 
 .project-source {
