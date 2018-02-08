@@ -8,7 +8,6 @@ publishdir          = "public"
 theme               = "cocoa"
 author              = "Simonas Viliunas"
 title               = "Machine Code Never Lies"
-pygmentsuseclasses  = true
 disqusshortname     = "machinecodeneverlies" # Comment out to disable Disqus.
 pluralizelisttitles = false
 googleAnalytics     = "UA-113536003-1"
@@ -74,10 +73,6 @@ github                 = "//github.com/vilisimo"
 linkedin               = "//linkedin.com/in/simonasviliunas"
 noshowreadtime         = false                         # if true, don't show "<x> minutes read" in posts
 # twitter                = "//twitter.com/you"
-
-highlightjs            = true
-# highlightjslanguages = ["go"]                        # additional languages not included in the "common" set
-# highlightjsStyle     = "darcula"
 
 piwik                  = false                         # If true, Piwik integration is enabled
 # piwik_url            = "//www.example.com/piwik/"    # URL to your Piwik installation. Must End with a slash
