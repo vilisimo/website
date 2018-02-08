@@ -1,3 +1,31 @@
+::selection {
+    background: indianred;
+    color: white;
+}
+
+/*** Mozilla based browsers ***/
+::-moz-selection {
+    background: indianred;
+    color: white;
+}
+
+/***For Other Browsers ***/
+::-o-selection {
+    background: indianred;
+    color: white;
+}
+
+::-ms-selection {
+    background: indianred;
+    color: white;
+}
+
+/*** For Webkit ***/
+::-webkit-selection {
+    background: indianred;
+    color: white;
+}
+
 /* Title */
 section.header .name {
   font-size: 1.2em;
