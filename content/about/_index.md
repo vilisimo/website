@@ -1,3 +1,6 @@
+---
+heading: About
+---
 I'm Simonas. 
 
 I work as a software developer. I have masters in __Software Development__
