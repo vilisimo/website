@@ -8,19 +8,19 @@
       </div>
       {{ with .Data.Pages }}
         <div class="section-items">
-            <ul>
-            {{ range .ByWeight }}
-              <div class="project">
-                <li>
-                  <a href="#" class="project-title">{{ default .Title .Params.heading }}</a>
-                  <span class="project-source">
-                    <a href="{{ .Site.Params.Github }}/{{ .Params.project }}" target="_blank">source</a>
-                  </span>
-                </li>
-                <div class="markdown project-content hidden">
-                  {{ .Content }}
-                </div>
+          <ul>
+          {{ range .ByWeight }}
+            <div class="project">
+              <li>
+                <a href="#" class="project-title">{{ default .Title .Params.heading }}</a>
+                <span class="project-source">
+                  <a href="{{ .Site.Params.Github }}/{{ .Params.project }}" target="_blank">source</a>
+                </span>
+              </li>
+              <div class="markdown project-content hidden">
+                {{ .Content }}
               </div>
+            </div>
           {{ end }}
           </ul>
         </div>
