@@ -46,14 +46,20 @@ nav span {
 
 /* Projects section styling */
 .project-title {
-  line-height: 2;
-  cursor: pointer;
   color: black;
 }
 
 .project-title:hover {
-  font-weight: bold;
   color: black;
+}
+
+.project > li {
+  cursor: pointer;
+  line-height: 2;
+}
+
+.project > li:hover {
+  font-weight: bold;
 }
 
 .project-source {
