@@ -2,6 +2,8 @@
 title: Something
 date: 2018-01-20T21:34:45+02:00
 draft: true
+tags: ["testing"]
+categories: ["test"]
 ---
 Some text. And some python code:
 ```

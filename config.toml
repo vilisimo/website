@@ -19,6 +19,10 @@ hrefTargetBlank     = true
 [permalinks]
 blog  = "blog/:slug/"
 
+[taxonomies]
+tag                 = "tags"
+category            = "categories"
+
 [[menu.main]]
 name                   = "Home"
 weight                 = -130
