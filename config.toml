@@ -1,82 +1,64 @@
-baseurl             = "https://vilisimo.github.io/"
-builddrafts         = false
-canonifyurls        = true
-contentdir          = "content"
-languageCode        = "en-US"
-layoutdir           = "layouts"
-publishdir          = "public"
-theme               = "cocoa"
-author              = "Simonas Viliunas"
-title               = "Machine Code Never Lies"
-disqusshortname     = "machinecodeneverlies" # Comment out to disable Disqus.
-pluralizelisttitles = false
-googleAnalytics     = "UA-113536003-1"
+baseurl                 = "https://vilisimo.github.io/"
+contentdir              = "content"
+layoutdir               = "layouts"
+publishdir              = "public"
+theme                   = "emperor"
+title                   = "Machine Code Never Lies"
+builddrafts             = false
+canonifyurls            = true
+googleAnalytics         = "UA-113536003-1"
+pluralizelisttitles     = false
+languageCode            = "en-us"
+enableGitInfo           = true
+paginate                = 10
+pygmentsUseClassic      = false
+pygmentsStyle           = "monokai"
 
-[blackfriday]
-hrefTargetBlank     = true
-
-[permalinks]
-blog  = "blog/:slug/"
+[Author]
+name                    = "Simonas Viliūnas"
 
 [taxonomies]
-tag                 = "tags"
-category            = "categories"
+category                = "categories"
+tag                     = "tags"
+languageCode            = "languages"
+tool                    = "tools"
+
+[permalinks]
+blog                    = "blog/:slug/"
+projects                = "project/:slug/"
 
 [[menu.main]]
-name                   = "Home"
-weight                 = -130
-identifier             = "home"
-url                    = "/"
+name                    = "Home"
+weight                  = -130
+identifier              = "home"
+url                     = "/"
 
 [[menu.main]]
-name                   = "Blog"
-weight                 = -120
-identifier             = "blog"
-url                    = "/blog/"
+name                    = "Blog"
+weight                  = -120
+identifier              = "blog"
+url                     = "/blog/"
 
 [[menu.main]]
-name                   = "Projects"
-weight                 = -110
-identifier             = "projects"
-url                    = "/projects/"
+name                    = "Projects"
+weight                  = -110
+identifier              = "projects"
+url                     = "/projects/"
 
 [[menu.main]]
-name                   = "About"
-weight                 = -100
-identifier             = "about"
-url                    = "/about/"
+name                    = "About"
+weight                  = -100
+identifier              = "about"
+url                     = "/about/"
 
 [params]
-include_rss            = true                               # include RSS <link> tag in <head> and show RSS icon
-latestpostscount       = 5                                  # how many posts to display on the home page
-i18n_flags             = false                              # whether to display small country flags for available translations
-title                  = "Machine Code Never Lies"          # Appears above menu items
-description            = "Read the source code and weep"
-intro                  = "Read the source code and weep"    # appears in the site header when set to a non-empty string
-cachebuster            = true                               # add the current unix timestamp in query string for cache busting css assets
-dateform               = "Jan 2, 2006"
-dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
-faviconfile            = "img/lies.ico"
-lang                   = "en"
+description             = "Blog aimed at banishing heresy"
+latestpostcount         = 3
 
-# Additional JavaScript
-customjs               = ["/js/custom.js"]
-jquery                 = true
+[params.assets]
+normalizecss            = true
 
-# Additional CSS
-customcss              = ["/css/custom.css"]
-
-# Social
-github                 = "//github.com/vilisimo"
-# email                  = "you@example.space"
-# instagram              = "//instagram.com/you"
-linkedin               = "//linkedin.com/in/simonasviliunas"
-noshowreadtime         = false                         # if true, don't show "<x> minutes read" in posts
-# twitter                = "//twitter.com/you"
-
-piwik                  = false                         # If true, Piwik integration is enabled
-# piwik_url            = "//www.example.com/piwik/"    # URL to your Piwik installation. Must End with a slash
-# piwik_id             = 2                             # Id of your site in Piwik
-
-# avatar                 = "img/profile.png" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
-# gravatar               = ""                # gravatar hash. see https://en.gravatar.com/site/implement/hash/. do not use in the same time as avatar
+[params.social]
+github                  = "vilisimo"
+linkedin                = "simonasviliunas"
+stackoverflow           = "4543382"

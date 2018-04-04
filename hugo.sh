@@ -1,1 +1,1 @@
-hugo -t cocoa
+hugo -t emperor

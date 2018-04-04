@@ -1,1 +1,1 @@
-hugo server -t cocoa --buildDrafts
+hugo server -t emperor --buildDrafts
