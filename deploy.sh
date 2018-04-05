@@ -2,13 +2,9 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
-# Get the theme name
-theme="$(find themes/ -mindepth 1 -maxdepth 1 -type d -printf '%f\n' |\
-    (head -n1 && tail -n1))"
-
 # Build the project.
 # hugo -t <theme> when using themes
-hugo -t $theme
+hugo -t emperor
 
 # Add changes to git
 cd public
