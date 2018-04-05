@@ -3,17 +3,15 @@ title: Books CRUD
 draft: false
 project: books-crud
 weight: 6
+description: Because CRUD projects are always exciting
+languages: [java, groovy]
+tools: [dropwizard, spock, guice, camel, jdbi, docker]
 ---
-The project is a proof of concept CRUD app. Its main purpose was to have a 
-place to play with:
 
-- Java 8
-- Dropwizard
-- Groovy + Spock
-- Camel
-- Guice
-- JDBI
-- Docker
+## What
+The project is a proof of concept CRUD app.
 
-It mostly consists of wiring components and libraries to check how they work 
-with one another. Hence, it really is a simple CRUD app.
+## Why
+The main motivation for the app was to see what it feels like when half of the
+Spring's magic is stripped away. And boy does the Spring project take care of 
+a lot of things.

@@ -3,19 +3,21 @@ title: Tasks
 draft: false
 project: tasks
 weight: 4
+description: Create a list of tasks to feign being organised
+languages: [java]
+tools: [hsqldb, jdbc, liquibase, maven]
 ---
-`tasks` is a command line tool to enable creating and keeping track of tasks
-that need to be done.
 
-The main reason for this project was to have a simple project that allows some
-degree of experimentation with the following technologies a little bit more:
+## What
+Every serious programmer secretly craves to program todo applications. `tasks`
+quenches this burning desire. It is a command line tool to enable creating and
+keeping track of tasks that need to be done.
 
-- Java 9
-- HSQLDB
-- JDBC
-- Liquibase
-- Log4j2
-- Maven
-- Commons CLI
+## Why
+The main reason for this project was to have a simple project that allowed
+some degree of experimentation with various Java-based technologies. In fact,
+it was the first project that I used Java 9 with (mm, `Map.of`, come to mah 
+belly).
 
-Apparently, coding CLI tools in Java is quite awkward. Who could have guessed.
+Incidentally, coding CLI tools in Java turned out to be quite awkward. I was
+shocked. Who could have thought.
