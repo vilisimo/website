@@ -54,6 +54,7 @@ url                     = "/about/"
 [params]
 description             = "Blog aimed at banishing heresy"
 latestpostcount         = 3
+favicon                 = "img/lies.ico"
 
 [params.assets]
 normalizecss            = true
