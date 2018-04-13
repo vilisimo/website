@@ -20,12 +20,12 @@ name                    = "Simonas Viliūnas"
 [taxonomies]
 category                = "categories"
 tag                     = "tags"
-languageCode            = "languages"
+language                = "languages"
 tool                    = "tools"
 
 [permalinks]
 blog                    = "blog/:slug/"
-projects                = "project/:slug/"
+projects                = "projects/:slug/"
 
 [[menu.main]]
 name                    = "Home"
