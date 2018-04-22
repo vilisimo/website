@@ -52,7 +52,7 @@ identifier              = "about"
 url                     = "/about/"
 
 [params]
-description             = "Blog aimed at banishing heresy"
+description             = "Blog about programming,"
 latestpostcount         = 3
 favicon                 = "img/lies.ico"
 
