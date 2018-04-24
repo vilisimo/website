@@ -9,8 +9,8 @@ tools: []
 ---
 
 ## What
-`steamCLI` is a command line tool that allows searching for prices of games
-on Steam straight from the command line. It supports recent and overall ratings,
+`steamCLI` is a command line tool that allows searching for game prices on
+Steam straight from the command line. It supports recent and overall ratings,
 current prices (on Steam), historical low price, different currencies and 
 regions.
 
