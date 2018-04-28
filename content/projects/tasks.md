@@ -5,7 +5,7 @@ project: tasks
 weight: 4
 description: Create a list of tasks to feign being organised
 languages: [java]
-tools: [hsqldb, jdbc, liquibase, maven]
+tools: [hsqldb, liquibase, maven]
 ---
 
 ## What
