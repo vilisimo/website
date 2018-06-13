@@ -14,6 +14,11 @@ paginate                = 10
 pygmentsUseClassic      = false
 pygmentsStyle           = "friendly"
 
+[privacy.googleAnalytics]
+anonymizeIP = true
+respectDoNotTrack = true
+useSessionStorage = true
+
 [Author]
 name                    = "Simonas Viliūnas"
 
