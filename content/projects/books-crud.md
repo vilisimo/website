@@ -2,7 +2,7 @@
 title: Books CRUD 
 draft: false
 project: books-crud
-weight: 6
+weight: 7
 description: Because CRUD projects are always exciting
 languages: [java, groovy]
 tools: [dropwizard, spock, guice, camel, jdbi, docker]

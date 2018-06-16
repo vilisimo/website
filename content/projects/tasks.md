@@ -2,7 +2,7 @@
 title: Tasks
 draft: false
 project: tasks
-weight: 4
+weight: 5
 description: Create a list of tasks to feign being organised
 languages: [java]
 tools: [hsqldb, liquibase, maven]

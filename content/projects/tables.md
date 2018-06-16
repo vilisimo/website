@@ -2,7 +2,7 @@
 title: Tables
 draft: false
 project: tables
-weight: 5
+weight: 6
 description: Because each command line interface needs more tables
 languages: [java]
 tools: []
