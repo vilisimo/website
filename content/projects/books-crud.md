@@ -3,13 +3,13 @@ title: Books CRUD
 draft: false
 project: books-crud
 weight: 7
-description: Because CRUD projects are always exciting
+description: Mastering Java ecosystem, one CRUD at a time
 languages: [java, groovy]
 tools: [dropwizard, spock, guice, camel, jdbi, docker]
 ---
 
 ## What
-The project is a proof of concept CRUD app.
+The project is a simple proof of concept CRUD app.
 
 ## Why
 The main motivation for the app was to see what it feels like when half of the
