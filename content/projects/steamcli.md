@@ -6,6 +6,7 @@ weight: 2
 description: Find relevant information about games on Steam straight from your command line
 languages: [python]
 tools: []
+date: 2018-06-20T00:00:00+03:00
 ---
 
 ## What

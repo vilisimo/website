@@ -6,6 +6,7 @@ weight: 7
 description: Mastering Java ecosystem, one CRUD at a time
 languages: [java, groovy]
 tools: [dropwizard, spock, guice, camel, jdbi, docker]
+date: 2018-06-20T00:00:00+03:00
 ---
 
 ## What

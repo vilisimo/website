@@ -6,6 +6,7 @@ weight: 3
 description: When you have no idea what to do with all those ingredients in the fridge
 languages: [python, javascript, html, css]
 tools: [django, sqlite, jquery, heroku, aws]
+date: 2018-06-20T00:00:00+03:00
 ---
 
 ## What

@@ -6,6 +6,7 @@ weight: 1
 description: Because there aren't enough blogs on the Internet
 languages: [html, css, sass]
 tools: [hugo]
+date: 2018-06-20T00:00:00+03:00
 ---
 
 ## What

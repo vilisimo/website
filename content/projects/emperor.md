@@ -6,6 +6,7 @@ weight: 4
 description: "Because there aren't enough Hugo themes"
 languages: [HTML, CSS, Sass]
 description: "Because there aren't enough Hugo themes"
+date: 2018-06-20T00:00:00+03:00
 ---
 
 ## What
