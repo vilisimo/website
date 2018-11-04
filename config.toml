@@ -1,4 +1,4 @@
-baseurl                 = "https://vilisimo.github.io/"
+baseurl                 = "https://vilisimo.com/"
 contentdir              = "content"
 layoutdir               = "layouts"
 publishdir              = "public"
