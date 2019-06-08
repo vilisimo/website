@@ -1,5 +1,6 @@
 ---
 heading: About
+date: 2018-06-20T00:00:00+03:00
 ---
 
 I work as a software developer. I have masters in Software Development and an
