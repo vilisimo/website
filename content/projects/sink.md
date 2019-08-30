@@ -24,6 +24,12 @@ and Dart, and I hope to eventually complete the project properly.
 
 ## Screens
 
+### Registration & Sign In
+Below are the registration and sign in screens. Authentication is done via Firebase using email address.
+
+![Sign In](https://raw.githubusercontent.com/vilisimo/sink/master/screens/signin.png "Sign In screen")
+![Registration](https://raw.githubusercontent.com/vilisimo/sink/master/screens/register.png "Registration screen")
+
 ### Main screen
 ![Main screen](https://raw.githubusercontent.com/vilisimo/sink/master/screens/entries.png "Main screen of Sink")
 
