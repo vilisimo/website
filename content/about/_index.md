@@ -3,17 +3,21 @@ heading: About
 date: 2018-06-20T00:00:00+03:00
 ---
 
-I work as a software developer. I have masters in Software Development and an
+I work as a software engineer. I have masters in Software Development and an
 undergraduate degree in Psychology (both awarded by University of Glasgow).
 
-At work, I'm mostly doing backend stuff. At the moment, I am working with Java
-and Groovy, writing microservices and making sure they don't fall down when
-the wind starts blowing. To that end, I'm a heavy user of Spring Boot, Kafka,
-Docker, Elasticsearch, Maven & Gradle, and various flavors of SQL. Majority of
-my work is done on Linux, although on my free time I like to hack around on my
-MacBook.
+At work, I'm mostly doing backend stuff, although recently I started dabbling
+in frontend from time to time, too. At the moment, I have the pleasure of
+using Python, TypeScript and PostgreSQL at work. Most of the stuff is done
+with the help of Django (backend) and React (frontend).
 
-Nevertheless, my first and most beloved language is Python. I also dabble with
-CSS, HTML, and JavaScript. Currently, though, I am playing around with Dart
-and Flutter by making an app to track my own expenses. You can follow my
-progress on [GitHub](https://github.com/vilisimo/sink).
+Before switching jobs I used to program quite a bit in Java and Groovy. I also
+had a pleasure (and sometimes a fair amount of pain) of using Spring Boot,
+Kafka, Elasticsearch, Maven & Gradle, as well as various flavors of SQL.
+
+Both now and then Linux, OS X, Docker, git are tools that I use daily. Both
+then and now I'm involved in writing microservices and making sure they don't
+fall down when the wind starts blowing.
+
+In my free time, however, I like to poke various technologies and languages,
+such as Kotlin, Dart, JavaScript, CSS, Spring Boot, Flutter, etc.
