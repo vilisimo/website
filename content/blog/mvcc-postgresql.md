@@ -5,6 +5,7 @@ categories: [databases, postgresql]
 tags: []
 draft: false
 include_toc: true
+description: "Concurrency control is essential for databases. How does PostgreSQL implement it?"
 ---
 
 Recently I’ve had the opportunity to give a short presentation at my work on PostgreSQL, and more specifically, concurrency control. While preparing for the presentation, I’ve come across a term that I was not familiar with: _multiversion concurrency control_ (MVCC). I wish I could tell myself that this is an obscure area of research that I had no business of knowing anyway, but the fact is that it is a pretty well known concurrency control method. PostgreSQL is not particularly shy about it itself - the introductory section of the 13th chapter of PostgreSQL documentation explicitly states that the database uses MVCC to maintain data consistency [[1]](https://www.postgresql.org/docs/13/mvcc-intro.html). However, the section is a little short on the details, so I wanted to explore the mechanism in greater detail.
