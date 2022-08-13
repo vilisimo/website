@@ -1,7 +1,7 @@
 ---
 title: "File System Permissions in Dockerfile"
 date: 2022-08-13T11:37:56+03:00
-draft: true
+draft: false
 categories: [docker, django, linux]
 tags: []
 description: "The dreaded '[Errno 13] Permission denied' error and how to fix it"
