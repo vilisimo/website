@@ -107,7 +107,7 @@ USER app
 RUN python manage.py collectstatic --no-input
 ```
 
-What is happening here? Well, first of all, we create a `static/` directory, which matches the static directory specified in the `settings.py` file. This is where we intend the static assets to live. However, note that we have this command before specifying that we wish to switch to `app` user (`USER app`). Thus, the command runs as `root`. Therefore, it is owned by `root`, and the `app` user has no permissions to write to it. The simple fix is to add edit the line to read as follows:
+What is happening here? Well, first of all, we create a `static/` directory, which matches the static directory specified in the `settings.py` file. This is where we intend the static assets to live. However, note that we have this command before specifying that we wish to switch to `app` user (`USER app`). Thus, the command runs as `root`. Therefore, it is owned by `root`, and the `app` user has no permissions to write to it. The simple fix is to edit the line to read as follows:
 
 ```dockerfile
 RUN mkdir $CODE_DIR/static && chown app $CODE_DIR/static
