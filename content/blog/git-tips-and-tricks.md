@@ -1,7 +1,7 @@
 ---
 title: "Git Tips And Tricks"
 date: 2023-04-12T20:47:55+03:00
-draft: true
+draft: false
 include_toc: true
 categories: [git]
 tags: []
