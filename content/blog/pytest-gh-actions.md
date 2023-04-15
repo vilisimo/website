@@ -1,5 +1,5 @@
 ---
-title: "Setting up pytest with GitHub Actions"
+title: "Setting Up pytest With GitHub Actions"
 date: 2022-05-04T23:00:46+03:00
 categories: [github, pytest, ci/cd]
 tags: []

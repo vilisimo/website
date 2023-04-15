@@ -1,5 +1,5 @@
 ---
-title: "Git Tips And Tricks"
+title: "Git Tips and Tricks"
 date: 2023-04-12T20:47:55+03:00
 draft: false
 include_toc: true
