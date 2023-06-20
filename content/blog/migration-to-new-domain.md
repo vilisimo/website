@@ -8,7 +8,7 @@ description: "My blog has migrated to a new home"
 ---
 
 ## What?
-Recently I've started playing with `Next.js`. I liked it so much I decided to rebuild my blog with it. It just so happens that I also was thinking about getting a new domain. The stars aligned and I've moved the blog to https://directedignorance.com. Come visit, perhaps you'll like it.
+Recently I've started playing with `Next.js`. I liked it so much I decided to rebuild my blog with it. It just so happens that I also was thinking about getting a new domain. The stars aligned and I've moved the blog to https://www.directedignorance.com. Come visit, perhaps you'll like it.
 
 ## Why?
 ### Domain
